@@ -1,0 +1,325 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.dropdown-item {
+    font-weight: 500;
+    font-size: 15px;
+}
+.nav-item {
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.nav-link {
+    color: #fff !important;
+}
+.nav-link:hover {
+    opacity: 0.4;
+}
+.holder {
+    padding :  1em;
+    margin-left: 0.5em;
+}
+.add2 {
+    margin-left: 0.5em;
+}
+.carousel {
+    margin-top: 65px;
+}
+.slider {
+    margin: 90px 0;
+}
+.para {
+    font-size: 105%;
+}
+.para1 {
+    font-weight: 700;
+}
+.para2 {
+    line-height: 1.4;
+}
+.box1 {
+    padding: 10px;
+    margin: 16px;
+    border: 2px solid #000;
+    font-size: 110%
+}
+.box1:hover {
+    color:#fff;
+    background-color: #000;
+}
+.content1 {
+    background-color:rgba(192,192,192,0.4);
+}
+.mt1 {
+    margin: 90px 0;
+    padding: 120px 0;
+}
+.mt2 {
+    font-family: "Roboto","HelveticaNeue","Helvetica Neue",sans-serif;
+}
+.mt2:hover  {
+    background-color: #000;
+    color: #fff;
+    border-radius: 50px;
+}
+.symbol1  {
+    color: aqua;
+   text-align: center;
+   font-size: 400%;
+   margin-bottom: 30px;
+}
+.symbol2  {
+    color: #ff9e0d;
+   text-align: center;
+   font-size: 400%;
+   margin-bottom: 30px;
+}
+.symbol3  {
+    color: red;
+   text-align: center;
+   font-size: 400%;
+   margin-bottom: 30px;
+}
+
+.text1 , .text2 {
+    text-align: center;
+}
+.text1 {
+    font-weight: 600;
+}
+
+.reason {
+    text-align: center;
+    font-weight: 1000;
+    font-size: 110%;
+    text-transform: uppercase;
+}
+.ti-minus {
+    font-size: 150%;
+}
+.col-sm-4 {
+    text-align: center;
+}
+.symbol4 {
+    background-color: #4fcbf8;
+}
+.symbol5 {
+    background-color: #ff3030;
+}
+.symbol6 {
+    background-color:   #ff9e0d;
+}
+.symbol4 ,.symbol5,.symbol6  {
+    margin: auto;
+    margin-bottom: 30px;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    font-size: 200%;
+    color: #fff;
+    border-radius: 50%;
+    overflow: hidden;
+    transition-duration: 2s;
+    transition-property: transform;
+}
+.symbol4:hover,.symbol5:hover,.symbol6:hover {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+
+.paragraph1 {
+    font-weight: 600;
+}
+.paragraph2 {
+    line-height: 1.4;
+    font-weight: 400
+}
+.thumb-wrapper {
+    margin: auto;
+    width: 80%;
+}
+.img-box {
+   margin-bottom: 30px;
+}
+.thumb-content {
+    text-align: center;
+}
+.thumb-content h4 {
+    text-transform: uppercase;
+}
+.textbox {
+   display:inline-block;
+   background:#fff;
+   position:relative;
+   padding:2px 5px;
+   background:-webkit-gradient(linear, left top, right top, color-stop(50%, #fff), color-stop(50%, #000));
+   background:-webkit-linear-gradient(left, #fff 50%, #000 50%);
+   background:-moz-linear-gradient(left, #fff 50%, #000 50%);
+   background:linear-gradient(to right, #fff 50%, #000 50%);
+   background-size:200% 100%;
+   background-position:0 0;
+   -webkit-transition:background-position .3s ease-out;
+   -moz-transition:background-position .3s ease-out;
+   transition:background-position .3s ease-out;
+    border: 2px solid #000;
+    font-weight: 550    ;
+    margin-bottom: 30px;
+}
+.textbox:hover {
+    background-position: -99% 0;
+    color: #fff;
+}
+.carousel-control-prev, .carousel-control-next {
+	height: 100px;
+	width: 40px;
+	background: none;
+	margin: auto 0;
+	background: rgba(0, 0, 0, 0.2);
+}
+.carousel-control-prev .visually-hidden, .carousel-control-next .visually-hidden {
+	font-size: 30px;
+	position: absolute;
+	top: 50%;
+	display: inline-block;
+	margin: -16px 0 0 0;
+	z-index: 5;
+	left: 0;
+	right: 0;
+	color: rgba(0, 0, 0, 0.8);
+	text-shadow: none;
+	font-weight: bold;
+}
+.carousel-control-prev .visually-hidden {
+	margin-left: -5px;
+}
+.carousel-control-next .visually-hidden {
+	margin-right: -5px;
+}
+.bg {
+    margin-top: -70px;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/bg_11.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 60px;
+}
+.checkbox {
+    margin: auto;
+    padding: 140px 20px;
+    text-align: center;
+    line-height: 100px;
+}
+.letter1 {
+    color: #ffffff;
+    font-family: "Roboto","HelveticaNeue","Helvetica Neue",sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+.letter2 {
+    color: #ffffff;
+    font-family: "Roboto","HelveticaNeue","Helvetica Neue",sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    margin: 2px 0 0 0;
+    padding: 3px 40px;
+    display: inline-block;
+    letter-spacing: 7px;
+    border: 1px solid #fff;}
+.letter1 , .letter2 {
+    font-weight: 70%;
+    color: #fff;
+    line-height: 1.9;
+    
+}
+
+.drop2 {
+    margin-top: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+.classical {
+    background-color:rgba(192,192,192,0.4);
+    
+}
+.block1 {
+    padding :80px 0;
+}
+.block2 {
+    width: auto;
+    padding: auto;
+    margin: auto;
+}
+.catch1 {
+    padding: 50px 0;
+    margin: auto;
+    padding: auto;
+}
+.success1 {
+    background-color: #000;
+    color: #fff;
+}
+.low1 {
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+.info li {
+    list-style: none;
+    margin-left: -30px  ;
+}
+
+.select2 {
+    display: flex;
+    margin-left: -30px;
+}
+.select2 li {
+    list-style: none;
+}
+.select2 li a {
+    display: inline-block;
+     width: 40px;
+     height: 40px;
+     background: #222;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-right: 10px;
+     text-decoration: none;
+     border-radius: 4px;
+     color: #fff    ;
+}
+.select2 li a:hover {
+    background-color: #fff;
+    color: #000;
+}
+.t2 a  {
+    text-decoration: none;
+    color: #fff;
+}
+.t2 a:hover {
+    opacity: 0.4;
+}
+.info li {
+    display: flex;
+    margin-bottom: 16px;
+}
+.info li a {
+    text-decoration: none;
+    color: #fff;
+}
+.info span i {
+    margin-right: 10px;
+}
+.info li a:hover{
+    opacity: 0.4;
+}
